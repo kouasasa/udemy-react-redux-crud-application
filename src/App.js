@@ -1,10 +1,10 @@
-import React, { Component } from 'react';
+import React from 'react';
 
 /* function App() {
   return ( <div>Hello, world!</div> );
 } */
 
-class App extends Component {
+/* class App extends Component {
    render() {
      return (
        <React.Fragment>
@@ -13,6 +13,23 @@ class App extends Component {
        </React.Fragment>    
      )
    }
+} */
+
+const App = () => {
+  return (
+    <div>
+      <Cat />
+      <Cat />
+      <Cat />
+      <Cat />
+    </div>
+    
+  )
 }
+
+const Cat = () => {
+  return <div>Meow!</div>
+}
+
 
 export default App;
